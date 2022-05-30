@@ -19,11 +19,16 @@ namespace CrabGamePlugin
             Log.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
             
 
-            ClassInjector.RegisterTypeInIl2Cpp<Esp>();
-            new GameObject("EPIC HAX")
-            {
-                hideFlags = HideFlags.HideAndDontSave //The GameObject is not shown in the Hierarchy, not saved to to Scenes, and not unloaded by Resources.UnloadUnusedAssets.
-            }.AddComponent<Esp>();
+           // ClassInjector.RegisterTypeInIl2Cpp<Esp>();
+            ClassInjector.RegisterTypeInIl2Cpp<Cheat>();
+
+            GameObject crabMenu = new GameObject(); 
+            
+            crabMenu.name = "Crab Menu by SpreadMouse#1121";
+            //crabMenu.AddComponent<Esp>();
+            crabMenu.AddComponent<Cheat>();
+            crabMenu.hideFlags = HideFlags.HideAndDontSave;
+            
         }
     }
 }
