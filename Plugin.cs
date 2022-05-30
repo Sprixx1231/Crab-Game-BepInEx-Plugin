@@ -8,7 +8,7 @@ using CrabGamePlugin.components;
 
 namespace CrabGamePlugin
 {
-    [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
+    [BepInPlugin("com.Sprixx1231.CrabGameCheat", "Crab Game Menu", PluginInfo.PLUGIN_VERSION)]
     [BepInProcess("Crab Game.exe")]
     public class Plugin : BasePlugin
     {

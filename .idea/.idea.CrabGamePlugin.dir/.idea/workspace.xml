@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="504b217a-7c3c-4be9-a791-456880514a89" name="Changes" comment="" />
+    <list default="true" id="504b217a-7c3c-4be9-a791-456880514a89" name="Changes" comment="fit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +12,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7d2ed1db1ffa4e3e975d37dd86b6ec40267c00/65/d39ef1b7/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/20831d408969472ba3d48658d4a1512f12a00/8f/d8d669e9/BasePlugin.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8896474383f44c419a3829354ea678478c2000/32/c2e3c501/PlayerInput.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netstandard2.1/.NETStandard,Version=v2.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,13 +54,36 @@
       <workItem from="1653687083708" duration="1327000" />
       <workItem from="1653752996598" duration="8374000" />
       <workItem from="1653843272958" duration="421000" />
-      <workItem from="1653916239859" duration="3395000" />
+      <workItem from="1653916239859" duration="3945000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1653919890997</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653919890997</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial">
+      <created>1653919926234</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653919926234</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fit">
+      <created>1653919949988</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653919949988</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,5 +99,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="initial" />
+    <MESSAGE value="fit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fit" />
   </component>
 </project>
