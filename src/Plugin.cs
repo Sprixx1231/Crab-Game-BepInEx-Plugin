@@ -1,9 +1,9 @@
 ﻿using BepInEx;
 using BepInEx.IL2CPP;
+using BepInEx.Logging;
 using UnityEngine;
-using System;
 using UnhollowerRuntimeLib;
-using BepInEx.Configuration;
+
 using CrabGamePlugin.components;
 
 namespace CrabGamePlugin
@@ -12,12 +12,12 @@ namespace CrabGamePlugin
     [BepInProcess("Crab Game.exe")]
     public class Plugin : BasePlugin
     {
+        internal static new ManualLogSource Log;
 
         public override void Load()
         {
             // Plugin startup logic
-            Log.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
-            
+            Log = base.Log;
 
            // ClassInjector.RegisterTypeInIl2Cpp<Esp>();
             ClassInjector.RegisterTypeInIl2Cpp<Cheat>();
@@ -28,6 +28,8 @@ namespace CrabGamePlugin
             //crabMenu.AddComponent<Esp>();
             crabMenu.AddComponent<Cheat>();
             crabMenu.hideFlags = HideFlags.HideAndDontSave;
+            
+            Log.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
             
         }
     }

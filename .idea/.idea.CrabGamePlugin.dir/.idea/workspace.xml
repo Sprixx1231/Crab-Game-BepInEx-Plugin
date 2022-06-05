@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="504b217a-7c3c-4be9-a791-456880514a89" name="Changes" comment="fit" />
+    <list default="true" id="504b217a-7c3c-4be9-a791-456880514a89" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CrabGamePlugin.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CrabGamePlugin.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CrabGamePlugin.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CrabGamePlugin.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Esp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/components/Esp.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/Dev/_Projects/_Cheat/_crabGame/Crab Game BepIn/CrabGamePlugin/Plugin.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/91aaa8349151457a98c04caf9728bc521a800/99/478fb221/Logger.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7d2ed1db1ffa4e3e975d37dd86b6ec40267c00/65/d39ef1b7/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.idea/.idea.CrabGamePlugin.dir/.idea/.gitignore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/20831d408969472ba3d48658d4a1512f12a00/8f/d8d669e9/BasePlugin.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/components/Esp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8896474383f44c419a3829354ea678478c2000/32/c2e3c501/PlayerInput.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Plugin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/netstandard2.1/PluginInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/netstandard2.1/.NETStandard,Version=v2.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -54,7 +70,7 @@
       <workItem from="1653687083708" duration="1327000" />
       <workItem from="1653752996598" duration="8374000" />
       <workItem from="1653843272958" duration="421000" />
-      <workItem from="1653916239859" duration="3945000" />
+      <workItem from="1653916239859" duration="6462000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1653919890997</created>
@@ -77,7 +93,28 @@
       <option name="project" value="LOCAL" />
       <updated>1653919949988</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix GUID">
+      <created>1653920315357</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653920315357</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added more stuff to ignore rider files">
+      <created>1653921640375</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653921640375</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix gitignore">
+      <created>1653921730925</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653921730925</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +138,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="initial" />
     <MESSAGE value="fit" />
-    <option name="LAST_COMMIT_MESSAGE" value="fit" />
+    <MESSAGE value="fix GUID" />
+    <MESSAGE value="added more stuff to ignore rider files" />
+    <MESSAGE value="fix gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix gitignore" />
   </component>
 </project>
